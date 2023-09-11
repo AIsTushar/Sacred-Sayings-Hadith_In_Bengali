@@ -1,0 +1,60 @@
+main {
+  padding: 1rem calc(var(--margin-global) * 2);
+}
+
+.searched_text {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--color-light);
+}
+
+.customization {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.cus_con_single p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.cus_con_single p span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+select {
+  height: 2rem;
+  width: 15rem;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
+.clear_filter {
+  border-bottom: 2px solid transparent;
+}
+
+.clear_filter,
+.clear_filter span {
+  padding: 0 0 0.3rem 0;
+  transition: all 0.2s;
+}
+.clear_filter:hover {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.clear_filter:hover,
+.clear_filter:hover span {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+/* !--------------------------------------- COURSES START ---------------------------------------- */
+.section__courses {
+  padding: 1rem var(--margin-global);
+}
